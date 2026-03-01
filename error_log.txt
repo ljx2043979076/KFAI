@@ -1,0 +1,132 @@
+[全局异常] 2025-11-23 16:32:29
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 1040, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 3037, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2025-11-23 16:38:48
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\test_trt_inference.py", line 201, in <module>
+    print(f"\n✅ 当前正在使用 TensorRT 引擎!")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2705' in position 2: illegal multibyte sequence
+
+[全局异常] 2025-11-23 16:52:26
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\test_flashbang_availability.py", line 27, in <module>
+    print("\n✅ 成功! 背闪功能已对所有模型开放!")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2705' in position 2: illegal multibyte sequence
+
+[全局异常] 2025-12-01 20:31:34
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2025-12-01 20:33:40
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2025-12-01 20:34:04
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2025-12-01 20:34:25
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2025-12-01 20:35:46
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2025-12-19 18:28:38
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2025-12-20 19:00:01
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2026-01-03 15:58:56
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+
+[全局异常] 2026-03-01 13:24:36
+Traceback (most recent call last):
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\main.py", line 102, in <module>
+    valorant_instance.start()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 887, in start
+    self.gui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\core.py", line 2819, in gui
+    dpg.start_dearpygui()
+  File "D:\Users\KFCheems\Desktop\mac\dopaALL\ZTXAI\.venv\lib\site-packages\dearpygui\dearpygui.py", line 102, in start_dearpygui
+    internal_dpg.render_dearpygui_frame()
+KeyboardInterrupt
+

@@ -1,0 +1,208 @@
+{
+  "group": "default",
+  "picked_game": "default",
+  "move_method": "makcu",
+  "infer_debug": true,
+  "print_fps": false,
+  "show_motion_speed": false,
+  "is_show_curve": false,
+  "is_show_down": false,
+  "is_obs": false,
+  "is_cjk": false,
+  "obs_ip": "127.0.0.1",
+  "obs_port": 4455,
+  "obs_fps": 60,
+  "cjk_device_id": 0,
+  "cjk_fps": 60,
+  "cjk_resolution": "1920x1080",
+  "cjk_crop_size": "640x640",
+  "cjk_fourcc_format": "NV12",
+  "distance_scoring_weight": 0.6,
+  "center_scoring_weight": 0.4,
+  "size_scoring_weight": 0.3,
+  "is_curve": true,
+  "is_curve_uniform": true,
+  "offset_boundary_x": 10,
+  "offset_boundary_y": 10,
+  "knots_count": 5,
+  "distortion_mean": 1.0,
+  "distortion_st_dev": 1.0,
+  "distortion_frequency": 0.5,
+  "target_points": 100,
+  "km_box_vid": "0x1111",
+  "km_box_pid": "0x2222",
+  "km_net_ip": "127.0.0.1",
+  "km_net_port": "9527",
+  "km_net_uuid": "00000000",
+  "dhz_ip": "127.0.0.1",
+  "dhz_port": 27015,
+  "dhz_random": 0,
+  "catbox_ip": "127.0.0.1",
+  "catbox_port": 9527,
+  "catbox_uuid": "00000000",
+  "km_com": "COM3",
+  "mask_left": false,
+  "mask_right": false,
+  "mask_middle": false,
+  "mask_side1": false,
+  "mask_side2": false,
+  "mask_x": false,
+  "mask_y": false,
+  "aim_mask_x": false,
+  "aim_mask_y": false,
+  "mask_wheel": false,
+  "down_switch_key": "f1",
+  "game_sensitivity": 1.0,
+  "mouse_dpi": 800,
+  "gui_dpi_scale": 0,
+  "enable_parallel_processing": false,
+  "turbo_mode": true,
+  "skip_frame_processing": true,
+  "performance_mode": "balanced",
+  "use_async_move": false,
+  "frame_skip_ratio": 0,
+  "cpu_optimization": true,
+  "memory_optimization": true,
+  "show_infer_time": true,
+  "is_show_priority_debug": false,
+  "show_fov": true,
+  "small_target_enhancement": {
+    "enabled": true,
+    "boost_factor": 2.0,
+    "threshold": 0.01,
+    "medium_threshold": 0.05,
+    "medium_boost": 1.5,
+    "smooth_enabled": true,
+    "smooth_frames": 5,
+    "adaptive_nms": true
+  },
+  "auto_flashbang": {
+    "enabled": false,
+    "delay_ms": 150,
+    "turn_angle": 90,
+    "sensitivity_multiplier": 2.5,
+    "return_delay": 80,
+    "min_confidence": 0.3,
+    "min_size": 5,
+    "use_curve": true,
+    "curve_speed": 8.0,
+    "curve_knots": 3
+  },
+  "recoil": {
+    "use_mouse_re_trajectory": false,
+    "replay_speed": 1.0,
+    "pixel_enhancement_ratio": 1.0,
+    "mapping": {}
+  },
+  "games": {
+    "default": {
+      "default_gun": [
+        {
+          "number": 30,
+          "offset": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "groups": {
+    "default": {
+      "infer_model": "D:/Users/KFCheems/Desktop/mac/model/Valorant/val_kenny_ultra_256_v11s.onnx",
+      "is_trt": true,
+      "is_v8": true,
+      "long_press_duration": 200,
+      "right_down": false,
+      "aim_keys": {
+        "mouse_right": {
+          "classes": [
+            0
+          ],
+          "aim_bot_scope": 200,
+          "aim_bot_position": 0.5,
+          "aim_bot_position2": 0.5,
+          "confidence_threshold": 0.5,
+          "iou_t": 1.0,
+          "deadzone": 5,
+          "history_size": 5,
+          "output_scale_x": 1.0,
+          "output_scale_y": 1.0,
+          "uniform_threshold": 0.5,
+          "min_velocity_threshold": 0.1,
+          "max_velocity_threshold": 10.0,
+          "compensation_factor": 1.0,
+          "fov_angle": 90,
+          "distance_weight": 0.6,
+          "base_step": 0.5,
+          "smoothing_factor": 0.5,
+          "min_position_offset": 0.0,
+          "dynamic_scope_enabled": false,
+          "dynamic_scope_min_scope": 50,
+          "dynamic_scope_shrink_ms": 500,
+          "dynamic_scope_recover_ms": 2000,
+          "class_priority": [],
+          "class_aim_positions": {
+            "0": {
+              "aim_bot_position": 0.5,
+              "aim_bot_position2": 0.5,
+              "confidence_threshold": 0.5,
+              "iou_t": 1.0
+            },
+            "1": {
+              "aim_bot_position": 0.0,
+              "aim_bot_position2": 0.0,
+              "confidence_threshold": 0.5,
+              "iou_t": 1.0
+            },
+            "2": {
+              "aim_bot_position": 0.0,
+              "aim_bot_position2": 0.0,
+              "confidence_threshold": 0.5,
+              "iou_t": 1.0
+            },
+            "3": {
+              "aim_bot_position": 0.0,
+              "aim_bot_position2": 0.0,
+              "confidence_threshold": 0.5,
+              "iou_t": 1.0
+            },
+            "4": {
+              "aim_bot_position": 0.0,
+              "aim_bot_position2": 0.0,
+              "confidence_threshold": 0.5,
+              "iou_t": 1.0
+            }
+          },
+          "trigger": {
+            "status": true,
+            "continuous": false,
+            "recoil": false,
+            "start_delay": 0,
+            "press_delay": 100,
+            "end_delay": 0,
+            "random_delay": 0,
+            "x_trigger_scope": 1.0,
+            "y_trigger_scope": 1.0,
+            "x_trigger_offset": 0.0,
+            "y_trigger_offset": 0.0
+          },
+          "class_priority_order": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "overshoot_threshold": 3.0,
+          "overshoot_x_factor": 0.5,
+          "overshoot_y_factor": 0.3,
+          "auto_y": true
+        }
+      },
+      "original_infer_model": "D:/Users/KFCheems/Desktop/mac/model/Valorant/val_kenny_ultra_256_v11s.onnx"
+    }
+  },
+  "screen_width": 1920,
+  "screen_height": 1080
+}

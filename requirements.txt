@@ -1,0 +1,55 @@
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+scipy>=1.7.0
+Pillow>=9.0.0
+
+# Deep Learning & Inference
+onnxruntime>=1.10.0
+# onnxruntime-gpu>=1.10.0  # Uncomment for GPU support
+# tensorrt>=8.0.0  # Optional: for TensorRT acceleration
+# pycuda>=2021.1  # Optional: for TensorRT acceleration
+# cupy>=10.0.0  # Optional: for CUDA operations
+
+# GUI
+dearpygui>=1.6.0
+tkinter-dnd2>=0.3.0
+
+# Hardware Control
+pywin32>=300
+pynput>=1.7.0
+pyclick>=0.0.1
+pydirectinput>=1.0.0
+pyserial>=3.5
+# kmNet  # Custom library - may need manual installation
+# bettercam  # Custom library - may need manual installation
+
+# Cryptography
+cryptography>=36.0.0
+pycryptodome>=3.15.0
+
+# Tracking & Filtering
+filterpy>=1.4.5
+
+# Network & Web
+requests>=2.27.0
+websocket-client>=1.2.0
+# flask>=2.0.0  # Optional: for web control panel
+
+# System & Utilities
+wmi>=1.5.1
+psutil>=5.9.0
+
+# Data Processing
+json5>=0.9.6
+
+# Custom Modules (may need manual installation)
+# arc4  # Custom RC4 encryption library
+# pykm2  # Custom library
+# makcu  # Custom controller library
+
+# Additional utilities
+python-dateutil>=2.8.0
+packaging>=21.0
+
+cat
